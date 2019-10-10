@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+}
+
+.allContacts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.contact {
+  margin: 10px;
+  min-width: 350px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  padding-top: 4px;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 15px;
+  padding: 2px;
+  position: absolute;
+  top: 40px;
+}
+
+.contact:hover {
+  background-color: black;
+}
+
+.contact:hover a {
+  color: white;
+}
+
+form {
+  margin: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+form label {
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+form input {
+  padding: 5px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
